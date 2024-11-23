@@ -2,7 +2,7 @@
 Collection of Google Apps Script projects for automating tasks in Google Workspace.
 
 ## Projects
-1. **Clear Cells
+1. **Clear Cells**
 - **[Code](clear_cells/ClearCells.gs)** | **[Documentation](clear_cells/README.md)**  
   Clears specified ranges in multiple tabs of a Google Sheet with a single script.
 
