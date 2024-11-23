@@ -7,8 +7,8 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
   Clears specified ranges in multiple tabs of a Google Sheet with a single script.
 
 2. **Automated Email with flexible email id's**
-   - [Code](automate_email/AutomateEmail.gs) | [Documentation](automate_email/README.md)
-   - Description: Sends automated follow-up emails based on Google Sheets data.
+   - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
+   - Description: This project automates the process of sending follow-up emails using Google Apps Script. The emails are dynamically sent to recipients, whose addresses are retrieved from a Google Sheet, and they contain a customized schedule based on data from the sheet.
 
 3. **Calendar Integration**
    - [Code](calendar_integration/CalendarIntegration.gs) | [Documentation](calendar_integration/README.md)
