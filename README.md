@@ -6,7 +6,7 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
 - **[Code](clear_cells/ClearCells.gs)** | **[Documentation](clear_cells/README.md)**  
   Clears specified ranges in multiple tabs of a Google Sheet with a single script.
 
-2. **Automate Email**
+2. **Automated Email with flexible email id's**
    - [Code](automate_email/AutomateEmail.gs) | [Documentation](automate_email/README.md)
    - Description: Sends automated follow-up emails based on Google Sheets data.
 
