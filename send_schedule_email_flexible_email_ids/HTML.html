@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #4CAF50;
+      text-align: center;
+    }
+
+    .subheader {
+      font-size: 1.2em;
+      color: #777;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .table-container {
+      margin-top: 20px;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .table-container th, .table-container td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .table-container th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .table-container tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1><?= h1 ?></h1>
+  <div class="subheader"><?= subheader ?></div>
+  <div class="subheader"><?= subheader2 ?></div>
+
+  <table class="table-container">
+    <thead>
+      <tr>
+        <th><?= Name ?></th>
+        <th><?= Manager ?></th>
+        <th><?= Designation ?></th>
+        <th><?= Territory ?></th>
+        <th><?= Area ?></th>
+        <th><?= Limit ?></th>
+        <th><?= Limit2 ?></th>
+      </tr>
+    </thead>
+    <tbody>
+      <? for (var i = 0; i < tablerangevalues.length; i++) { ?>
+        <tr>
+          <td><?= tablerangevalues[i][0] ?></td>
+          <td><?= tablerangevalues[i][1] ?></td>
+          <td><?= tablerangevalues[i][2] ?></td>
+          <td><?= tablerangevalues[i][3] ?></td>
+          <td><?= tablerangevalues[i][4] ?></td>
+          <td><?= tablerangevalues[i][5] ?></td>
+          <td><?= tablerangevalues[i][6] ?></td>
+        </tr>
+      <? } ?>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    If you have any questions, please contact the manager or your supervisor.
+  </div>
+
+</body>
+</html>
