@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      h1 {
+        color: #4CAF50;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, <?= recipientName ?>!</h1>
+    <p>We are pleased to share your sales performance report:</p>
+    <ul>
+      <li><strong>Target:</strong> <?= target ?></li>
+      <li><strong>Total Sales:</strong> <?= totalSales ?></li>
+      <li><strong>Incentive Earned:</strong> <?= incentive ?></li>
+    </ul>
+    <h2><?= header1 ?></h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <? for (var i = 0; i < tableValues.length; i++) { ?>
+          <tr>
+            <td><?= tableValues[i][0] ?></td>
+            <td><?= tableValues[i][1] ?></td>
+          </tr>
+        <? } ?>
+      </tbody>
+    </table>
+    <p>Keep up the great work!</p>
+    <p>Best regards,<br>Team</p>
+  </body>
+</html>
