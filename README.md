@@ -3,8 +3,8 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
 
 ## Projects
 1. **Google Sheets Copy and Append Script**
-- [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML_File](Automatically Paste Data From 1 place to another/README.md)
-  This Google Apps Script automates the process of copying data from a specified range within a Google Sheet, filtering out empty rows, and appending the cleaned data to a new location. It is designed for flexible use cases, including pasting the data within the same sheet or another tab.
+- [Code](Automatically Paste Data From 1 place to another/App Script.gs)
+- Description: This Google Apps Script automates the process of copying data from a specified range within a Google Sheet, filtering out empty rows, and appending the cleaned data to a new location. It is designed for flexible use cases, including pasting the data within the same sheet or another tab.
 
 2. **Automated Email with flexible email id's**
    - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML_File](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
