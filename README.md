@@ -108,6 +108,14 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Color Check:** Evaluates the background color of cells in the second column.
    - **Conditional Marking:** Marks rows with `1` for blue cells and `0` for others.
 
+13. **Automated Cell Clearing Script**
+   - [Code](clear_cells/ClearCells.gs) | [Documentation](clear_cells/README.md)
+   - Description: This Google Apps Script automates the process of clearing specific cell ranges across multiple sheets in a Google Spreadsheet. It helps streamline daily data cleaning tasks by resetting designated cells.
+   #### Key Features:
+   - Clears ranges `U2:Y100` in the "Morning Follow-up" and "Evening Follow-up" sheets.
+   - Clears range `Q2:U150` in the "Retailer_Data" sheet.
+   - Ideal for daily data cleanup and reset tasks.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
