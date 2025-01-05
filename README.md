@@ -92,6 +92,14 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Customizable Conditions:** Set different colors for different values (e.g., green for completed, red for urgent).
    - **Easy Integration:** Works with any Google Sheet and can be adapted for various use cases.
 
+11. **Hide/Show Rows Based on Column Value**
+   - [Code](Hide_Rows_Based_On_Column_Value/App_Script.gs) | [Documentation](Hide_Rows_Based_On_Column_Value/README.md)
+   - Description: This Google Apps Script automates hiding or showing rows in a Google Sheets document based on specific values in a designated column. It checks values in a specified column (e.g., Column W) and hides rows where the value meets a certain condition (e.g., value is `1`).
+   #### Key Features:
+   - **Conditional Row Visibility:** Automatically hides rows with specific values (e.g., `1`) in a designated column.
+   - **Customizable:** Can be used on any sheet by modifying the sheet name in the script.
+   - **Data Filtering:** Ideal for automatically hiding completed tasks or irrelevant data.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
