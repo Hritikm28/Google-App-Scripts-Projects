@@ -39,6 +39,17 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Spreadsheet Integration:** Easily manage recipient data and email content in Google Sheets.
    - **Automated Email Sending:** Sends personalized emails via Gmail.
 
+5. **Email With Flexible Email Ids**
+   - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
+   - Description: This Google Apps Script automates sending customized schedule emails to recipients listed in a Google Sheet. It dynamically retrieves email addresses and schedule data, populates an HTML email template, and sends personalized emails using Gmail.
+
+   #### Key Features:
+   - **Dynamic Email Recipients:** Sends emails to recipients listed in the "Email" sheet (A2 to A31) without manual updates.
+   - **Data Retrieval:** Fetches details like Name, Manager, Designation, and schedule data from "Sheet1."
+   - **HTML Template:** Customizes email content with dynamic schedule data.
+   - **Email Customization:** Subject and CC email addresses are pulled directly from the sheet.
+   - **Gmail Integration:** Sends the emails with HTML content using GmailApp.sendEmail().
+
 ## How to Use
 - Open the script in Google Apps Script editor.
 - Follow the individual project instructions provided in the respective folders.
