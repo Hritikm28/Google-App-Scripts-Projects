@@ -58,6 +58,15 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Scheduled Updates:** Runs daily at 08:30 AM to keep the sheet updated.
    - **Google Sheets Integration:** Ensures the target sheet is created and updated with the latest data.
 
+7. **Handle Reference Error**
+   - [Code](Handle_Ref_Error/App_Script.gs) | [Documentation](Handle_Ref_Error/README.md)
+   - Description: This Google Apps Script automates the detection and resolution of `#REF!` errors in Google Sheets. It checks for reference errors, adds rows to resolve them, and sends an email notification if the issue persists after multiple attempts.
+   #### Key Features:
+   - **Automatic Detection**: Scans for `#REF!` errors in the sheet.
+   - **Dynamic Row Addition**: Adds rows to fix reference errors.
+   - **Retry Mechanism**: Configurable number of attempts to resolve errors.
+   - **Email Notification**: Alerts the user if the issue remains unresolved.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
