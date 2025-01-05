@@ -100,6 +100,14 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Customizable:** Can be used on any sheet by modifying the sheet name in the script.
    - **Data Filtering:** Ideal for automatically hiding completed tasks or irrelevant data.
 
+12. **Mark Rows Based on Cell Color**
+   - [Code](Value_Based_On_Cell_Color/App_Script.gs) | [Documentation](Value_Based_On_Cell_Color/README.md)
+   - Description: This Google Apps Script function marks rows in a Google Sheet based on the background color of cells in the second column. If a cell is blue (`#008080`), it marks the corresponding row with a `1` in the 23rd column. Otherwise, it marks it with a `0`.
+   #### Key Features:
+   - **Target Sheet:** Operates on `Sheet1` (modifiable).
+   - **Color Check:** Evaluates the background color of cells in the second column.
+   - **Conditional Marking:** Marks rows with `1` for blue cells and `0` for others.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
