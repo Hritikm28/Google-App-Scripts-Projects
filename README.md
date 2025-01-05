@@ -11,8 +11,7 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - Description: This project automates the process of sending follow-up emails using Google Apps Script. The emails are dynamically sent to recipients, whose addresses are retrieved from a Google Sheet, and they contain a customized schedule based on data from the sheet.
 
 3. **Calendar Integration**
-   - [Code](google-sheet-pdf-report-email![image](https://github.com/user-attachments/assets/9383714c-cae2-4dab-b57d-62707d079c69)
-) | [Documentation](calendar_integration/README.md)
+   - [Code](google-sheet-pdf-report-email) | [Documentation](calendar_integration/README.md)
    - Description: Integrates Google Sheets data with Google Calendar to create or update events.
 
 ## How to Use
