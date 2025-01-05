@@ -1,4 +1,4 @@
-# Google Sheets Script: ClearCells
+# Overview
 
 This script is designed to automate the process of clearing specific cell ranges in multiple tabs within a Google Spreadsheet.
 
