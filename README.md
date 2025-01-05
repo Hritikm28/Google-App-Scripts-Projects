@@ -5,7 +5,6 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
 1. **Remove Duplicates, Keep Last, and Sort**
 - [Code](Google_Sheet_Pdf_Report_Email/App_Script.gs) | [HTML_File](Google_Sheet_Pdf_Report_Email/HTML.html) | [Documentation](Google_Sheet_Pdf_Report_Email/README.md)
 - Description: This script automates generating a PDF report from a Google Sheet and sending it via email. It extracts data from a specified sheet, formats it into an HTML table, converts it to a PDF, and sends it as an email attachment. Ideal for automating daily, weekly, or periodic reports.
-
    #### Key Features:
    - **PDF Report Generation:** Converts Google Sheet data into a well-structured PDF.
    - **Email Automation:**      Sends the generated PDF as an attachment to specified recipients.
