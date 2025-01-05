@@ -2,9 +2,9 @@
 Collection of Google Apps Script projects for automating tasks in Google Workspace.
 
 ## Projects
-1. **Google Sheets Copy and Append Script**
-- [Code](clear_cells)
-- Description: This Google Apps Script automates the process of copying data from a specified range within a Google Sheet, filtering out empty rows, and appending the cleaned data to a new location. It is designed for flexible use cases, including pasting the data within the same sheet or another tab.
+1. **Remove Duplicates, Keep Last, and Sort**
+- [Code](Remove Duplicate Rows and Sort Final result based on Column value/App Script.gs) | [Documentation](Remove Duplicate Rows and Sort Final result based on Column value/README.md)
+- Description: This script processes data in a Google Sheet by removing duplicate rows (based on the last occurrence of a key), sorting the data by a specified column, and updating the sheet with the cleaned and sorted data.
 
 2. **Automated Email with flexible email id's**
    - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML_File](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
