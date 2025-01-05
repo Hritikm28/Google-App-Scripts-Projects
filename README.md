@@ -28,7 +28,16 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **User-Defined Source Range**: Copies data from a specified range in the sheet.  
    - **Data Cleaning**: Filters out rows with no data to ensure clean appending.  
    - **Automatic Detection**: Identifies the first empty row in the destination range.  
-   - **Flexible Destination**: Allows appending within the same sheet or to a different tab.  
+   - **Flexible Destination**: Allows appending within the same sheet or to a different tab.
+
+4. **Personalized Emails To Each Recipient**
+   - [Code](Personalized_Emails_To_Each_Recipient/App_Script.gs) | [HTML](Personalized_Emails_To_Each_Recipient/HTML.html) | [Documentation](Personalized_Emails_To_Each_Recipient/README.md)
+   - Description: This Google Apps Script automates sending personalized emails to recipients listed in a Google Sheet. The emails include sales details and incentives, dynamically generated using an HTML template and data from the sheet. Each recipient receives a customized email based on their individual sales performance and incentives.
+   #### Key Features:
+   - **Dynamic Email Content:** Personalized emails with sales and incentive details.
+   - **HTML Template:** Customizable email layout and content.
+   - **Spreadsheet Integration:** Easily manage recipient data and email content in Google Sheets.
+   - **Automated Email Sending:** Sends personalized emails via Gmail.
 
 ## How to Use
 - Open the script in Google Apps Script editor.
