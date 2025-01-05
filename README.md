@@ -11,9 +11,16 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Customizable Data:**     Adjust the report content by modifying your Google Sheet.
    - **Recipient Management:**  Supports adding primary and CC email recipients.
 
-2. **Automated Email with flexible email id's**
-   - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML_File](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
-   - Description: This project automates the process of sending follow-up emails using Google Apps Script. The emails are dynamically sent to recipients, whose addresses are retrieved from a Google Sheet, and they contain a customized schedule based on data from the sheet.
+2. **Remove Duplicates, Keep Last Occurrence, and Sort Script**
+   - [Code](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/App_Script.gs) | [Documentation](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/README.md)
+   - Description: This Google Apps Script automates data cleaning and organization in Google Sheets by:  
+   - **Removing duplicate rows** while retaining the **last occurrence** of each unique key.  
+   - **Sorting the remaining rows** based on a specified column.  
+
+   #### Key Features:  
+   - **Remove Duplicates:** Ensures only the most recent instance of duplicate rows is kept.  
+   - **Sort Data:** Organizes rows based on a customizable column.  
+   - **Range Flexibility:** Allows defining the data range, key column for duplicates, and sort column.  
 
 3. **Calendar Integration**
    - [Code](google-sheet-pdf-report-email) | [Documentation](calendar_integration/README.md)
