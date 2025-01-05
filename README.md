@@ -42,13 +42,22 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
 5. **Email With Flexible Email Ids**
    - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
    - Description: This Google Apps Script automates sending customized schedule emails to recipients listed in a Google Sheet. It dynamically retrieves email addresses and schedule data, populates an HTML email template, and sends personalized emails using Gmail.
-
    #### Key Features:
    - **Dynamic Email Recipients:** Sends emails to recipients listed in the "Email" sheet (A2 to A31) without manual updates.
    - **Data Retrieval:** Fetches details like Name, Manager, Designation, and schedule data from "Sheet1."
    - **HTML Template:** Customizes email content with dynamic schedule data.
    - **Email Customization:** Subject and CC email addresses are pulled directly from the sheet.
    - **Gmail Integration:** Sends the emails with HTML content using GmailApp.sendEmail().
+
+6. **Import CSV Data From Gmail Attachment to Google Sheets**
+   - [Code](Save_From_Email_Attachment_To_Google_Sheet/App_Script.gs) | [Documentation](Save_From_Email_Attachment_To_Google_Sheet/README.md)
+   - Description: This Google Apps Script automatically imports a CSV attachment from a specific email in Gmail and pastes the contents into a Google Sheets document. The script is designed to fetch daily inventory reports, parse the CSV data, and update the sheet without manual intervention.
+   #### Key Features:
+   - **Email Fetching:** Automatically searches for emails with specific criteria (e.g., subject, sender, and filename).
+   - **CSV Parsing:** Parses the CSV attachment and updates the Google Sheets document.
+   - **Scheduled Updates:** Runs daily at 08:30 AM to keep the sheet updated.
+   - **Google Sheets Integration:** Ensures the target sheet is created and updated with the latest data.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
