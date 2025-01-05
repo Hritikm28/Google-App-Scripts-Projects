@@ -67,6 +67,23 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Retry Mechanism**: Configurable number of attempts to resolve errors.
    - **Email Notification**: Alerts the user if the issue remains unresolved.
 
+8. **Auto Timestamp for Edits**
+   - [Code](Save_Date_&_Time_Based_On_Value_In_A_Cell/App_Script.gs) | [Documentation](Save_Date_&_Time_Based_On_Value_In_A_Cell/README.md)
+   - Description: This Google Apps Script automatically adds a timestamp in a designated column whenever a specific cell is edited in Google Sheets. It ensures that timestamps are added even when the `onEdit()` trigger doesn't work as expected, particularly in large datasets or edits made via forms or APIs.
+   #### Key Features:
+   - **Automatic Timestamping:** Adds timestamps when cells are edited in a specific column.
+   - **Fallback for `onEdit()` Trigger:** Ensures timestamps are added even if `onEdit()` fails.
+   - **Customizable:** Works on any sheet and can be adapted to different columns.
+   - **Tracking Edits:** Helps track when each entry was modified.
+
+9. **Auto-Update Email Id & Timestamp**
+   - [Code](Save_EmailId_Timestamp_At_The_Time_Of_Edit_In_Sheet/App_Script.gs) | [Documentation](Save_EmailId_Timestamp_At_The_Time_Of_Edit_In_Sheet/README.md)
+   - Description: This Google Apps Script automatically records the date and email address of the user when specific columns are edited in a Google Sheet. It is designed for a sheet named **"New"** to maintain a log of user edits without manual intervention.
+   #### Key Features:
+   - **Automatic Date Logging:** Records the current date and time when specified columns are edited.
+   - **User Email Logging:** Logs the email address of the user who made the edit.
+   - **Seamless Operation:** Runs automatically without manual input.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
