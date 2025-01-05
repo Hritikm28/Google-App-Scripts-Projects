@@ -21,9 +21,14 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **Sort Data:** Organizes rows based on a customizable column.  
    - **Range Flexibility:** Allows defining the data range, key column for duplicates, and sort column.  
 
-3. **Calendar Integration**
-   - [Code](google-sheet-pdf-report-email) | [Documentation](calendar_integration/README.md)
-   - Description: Integrates Google Sheets data with Google Calendar to create or update events.
+3. **Automatically Copy & Paste Data**
+   - [Code](Automatically_Paste_Data_From_1_Place_To_Another/App_Script.gs) | [Documentation](Automatically_Paste_Data_From_1_Place_To_Another/README.md)
+   - Description: This Google Apps Script automates the process of copying data from a specified range, filtering out empty rows, and appending the cleaned data to a chosen destination. It supports appending within the same sheet or across different tabs.  
+   #### Key Features: 
+   - **User-Defined Source Range**: Copies data from a specified range in the sheet.  
+   - **Data Cleaning**: Filters out rows with no data to ensure clean appending.  
+   - **Automatic Detection**: Identifies the first empty row in the destination range.  
+   - **Flexible Destination**: Allows appending within the same sheet or to a different tab.  
 
 ## How to Use
 - Open the script in Google Apps Script editor.
