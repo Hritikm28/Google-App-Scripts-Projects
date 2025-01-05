@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a Google Apps Script function, `handleRefError1`, designed to handle and resolve `#REF!` errors in Google Sheets. The script checks for reference errors in a specified sheet, attempts to fix them by adding rows, and sends an email notification if the issue persists after multiple attempts.
+This repository contains a Google Apps Script function, `handleRefError`, designed to handle and resolve `#REF!` errors in Google Sheets. The script checks for reference errors in a specified sheet, attempts to fix them by adding rows, and sends an email notification if the issue persists after multiple attempts.
 
 ---
 
