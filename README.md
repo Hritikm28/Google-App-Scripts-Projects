@@ -84,6 +84,14 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
    - **User Email Logging:** Logs the email address of the user who made the edit.
    - **Seamless Operation:** Runs automatically without manual input.
 
+10. **Color Rows Based on Column Values**
+   - [Code](Color_Rows_Based_On_Column_Value/App_Script.gs) | [Documentation](Color_Rows_Based_On_Column_Value/README.md)
+   - Description: This Google Apps Script colors entire rows in a Google Sheet based on the values in a specified column, making it easier to visually categorize or highlight data.
+   #### Key Features:
+   - **Dynamic Row Coloring:** Apply custom colors based on cell values in a specific column.
+   - **Customizable Conditions:** Set different colors for different values (e.g., green for completed, red for urgent).
+   - **Easy Integration:** Works with any Google Sheet and can be adapted for various use cases.
+
 
 ## How to Use
 - Open the script in Google Apps Script editor.
