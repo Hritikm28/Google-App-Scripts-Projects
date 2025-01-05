@@ -1,123 +1,110 @@
-# Google-App-Scripts-Projects
-Collection of Google Apps Script projects for automating tasks in Google Workspace.
+# Google Apps Script Projects
+A collection of innovative Google Apps Script projects designed to automate tasks and enhance productivity within Google Workspace. These projects cover a variety of use cases, from data cleaning and report generation to email automation and error handling.
 
-## Projects
-1. **Remove Duplicates, Keep Last, and Sort**
-- [Code](Google_Sheet_Pdf_Report_Email/App_Script.gs) | [HTML_File](Google_Sheet_Pdf_Report_Email/HTML.html) | [Documentation](Google_Sheet_Pdf_Report_Email/README.md)
-- Description: This script automates generating a PDF report from a Google Sheet and sending it via email. It extracts data from a specified sheet, formats it into an HTML table, converts it to a PDF, and sends it as an email attachment. Ideal for automating daily, weekly, or periodic reports.
-   #### Key Features:
-   - **PDF Report Generation:** Converts Google Sheet data into a well-structured PDF.
-   - **Email Automation:**      Sends the generated PDF as an attachment to specified recipients.
-   - **Customizable Data:**     Adjust the report content by modifying your Google Sheet.
-   - **Recipient Management:**  Supports adding primary and CC email recipients.
+## Featured Projects
 
-2. **Remove Duplicates, Keep Last Occurrence, and Sort Script**
-   - [Code](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/App_Script.gs) | [Documentation](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/README.md)
-   - Description: This Google Apps Script automates data cleaning and organization in Google Sheets by:  
-      - **Removing duplicate rows** while retaining the **last occurrence** of each unique key.  
-      - **Sorting the remaining rows** based on a specified column.  
-   #### Key Features:  
-   - **Remove Duplicates:** Ensures only the most recent instance of duplicate rows is kept.  
-   - **Sort Data:** Organizes rows based on a customizable column.  
-   - **Range Flexibility:** Allows defining the data range, key column for duplicates, and sort column.  
+### 1. **Remove Duplicates, Keep Last, and Sort**
+- [Code](Google_Sheet_Pdf_Report_Email/App_Script.gs) | [HTML File](Google_Sheet_Pdf_Report_Email/HTML.html) | [Documentation](Google_Sheet_Pdf_Report_Email/README.md)
+- **Description**: Automates the generation of a PDF report from Google Sheets, formats it into an HTML table, and sends it as an email attachment.
+- **Key Features**:
+  - **PDF Report Generation**: Converts Google Sheets data into structured PDFs.
+  - **Email Automation**: Sends the generated PDF as an attachment.
+  - **Customizable Content**: Adjust report data and recipient list.
 
-3. **Automatically Copy & Paste Data**
-   - [Code](Automatically_Paste_Data_From_1_Place_To_Another/App_Script.gs) | [Documentation](Automatically_Paste_Data_From_1_Place_To_Another/README.md)
-   - Description: This Google Apps Script automates the process of copying data from a specified range, filtering out empty rows, and appending the cleaned data to a chosen destination. It supports appending within the same sheet or across different tabs.  
-   #### Key Features: 
-   - **User-Defined Source Range**: Copies data from a specified range in the sheet.  
-   - **Data Cleaning**: Filters out rows with no data to ensure clean appending.  
-   - **Automatic Detection**: Identifies the first empty row in the destination range.  
-   - **Flexible Destination**: Allows appending within the same sheet or to a different tab.
+### 2. **Remove Duplicates, Keep Last Occurrence, and Sort Script**
+- [Code](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/App_Script.gs) | [Documentation](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/README.md)
+- **Description**: Automates data cleaning by removing duplicates while keeping the last occurrence and sorting the remaining rows.
+- **Key Features**:
+  - **Remove Duplicates**: Retains only the latest entry.
+  - **Sort Data**: Organizes rows based on a chosen column.
+  - **Flexible Range & Column Selection**: Customizable for various datasets.
 
-4. **Personalized Emails To Each Recipient**
-   - [Code](Personalized_Emails_To_Each_Recipient/App_Script.gs) | [HTML](Personalized_Emails_To_Each_Recipient/HTML.html) | [Documentation](Personalized_Emails_To_Each_Recipient/README.md)
-   - Description: This Google Apps Script automates sending personalized emails to recipients listed in a Google Sheet. The emails include sales details and incentives, dynamically generated using an HTML template and data from the sheet. Each recipient receives a customized email based on their individual sales performance and incentives.
-   #### Key Features:
-   - **Dynamic Email Content:** Personalized emails with sales and incentive details.
-   - **HTML Template:** Customizable email layout and content.
-   - **Spreadsheet Integration:** Easily manage recipient data and email content in Google Sheets.
-   - **Automated Email Sending:** Sends personalized emails via Gmail.
+### 3. **Automatically Copy & Paste Data**
+- [Code](Automatically_Paste_Data_From_1_Place_To_Another/App_Script.gs) | [Documentation](Automatically_Paste_Data_From_1_Place_To_Another/README.md)
+- **Description**: Automates copying data from a specified range, cleaning it, and appending it to a destination sheet or tab.
+- **Key Features**:
+  - **User-Defined Source Range**: Flexible data copying.
+  - **Data Cleaning**: Removes empty rows.
+  - **Automatic Destination Detection**: Appends to the next available row.
 
-5. **Email With Flexible Email Ids**
-   - [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
-   - Description: This Google Apps Script automates sending customized schedule emails to recipients listed in a Google Sheet. It dynamically retrieves email addresses and schedule data, populates an HTML email template, and sends personalized emails using Gmail.
-   #### Key Features:
-   - **Dynamic Email Recipients:** Sends emails to recipients listed in the "Email" sheet (A2 to A31) without manual updates.
-   - **Data Retrieval:** Fetches details like Name, Manager, Designation, and schedule data from "Sheet1."
-   - **HTML Template:** Customizes email content with dynamic schedule data.
-   - **Email Customization:** Subject and CC email addresses are pulled directly from the sheet.
-   - **Gmail Integration:** Sends the emails with HTML content using GmailApp.sendEmail().
+### 4. **Personalized Emails To Each Recipient**
+- [Code](Personalized_Emails_To_Each_Recipient/App_Script.gs) | [HTML](Personalized_Emails_To_Each_Recipient/HTML.html) | [Documentation](Personalized_Emails_To_Each_Recipient/README.md)
+- **Description**: Sends personalized emails to recipients listed in a Google Sheet, using HTML templates to include dynamic content like sales data.
+- **Key Features**:
+  - **Dynamic Email Content**: Customizes email content based on sheet data.
+  - **HTML Template**: Easily customizable email design.
+  - **Spreadsheet Integration**: Manage recipients and content directly from Google Sheets.
 
-6. **Import CSV Data From Gmail Attachment to Google Sheets**
-   - [Code](Save_From_Email_Attachment_To_Google_Sheet/App_Script.gs) | [Documentation](Save_From_Email_Attachment_To_Google_Sheet/README.md)
-   - Description: This Google Apps Script automatically imports a CSV attachment from a specific email in Gmail and pastes the contents into a Google Sheets document. The script is designed to fetch daily inventory reports, parse the CSV data, and update the sheet without manual intervention.
-   #### Key Features:
-   - **Email Fetching:** Automatically searches for emails with specific criteria (e.g., subject, sender, and filename).
-   - **CSV Parsing:** Parses the CSV attachment and updates the Google Sheets document.
-   - **Scheduled Updates:** Runs daily at 08:30 AM to keep the sheet updated.
-   - **Google Sheets Integration:** Ensures the target sheet is created and updated with the latest data.
+### 5. **Email With Flexible Email IDs**
+- [Code](send_schedule_email_flexible_email_ids/schedule_emails_flx_emails.gs) | [HTML](send_schedule_email_flexible_email_ids/HTML.html) | [Documentation](send_schedule_email_flexible_email_ids/README.md)
+- **Description**: Automates sending customized schedule emails to recipients, dynamically pulling email addresses and schedule data from Google Sheets.
+- **Key Features**:
+  - **Dynamic Recipients**: Sends emails to recipients listed in the sheet.
+  - **Data Retrieval**: Fetches personalized data for each recipient.
+  - **Customizable Email Content**: Subject, CC, and content can be dynamically pulled from the sheet.
 
-7. **Handle Reference Error**
-   - [Code](Handle_Ref_Error/App_Script.gs) | [Documentation](Handle_Ref_Error/README.md)
-   - Description: This Google Apps Script automates the detection and resolution of `#REF!` errors in Google Sheets. It checks for reference errors, adds rows to resolve them, and sends an email notification if the issue persists after multiple attempts.
-   #### Key Features:
-   - **Automatic Detection**: Scans for `#REF!` errors in the sheet.
-   - **Dynamic Row Addition**: Adds rows to fix reference errors.
-   - **Retry Mechanism**: Configurable number of attempts to resolve errors.
-   - **Email Notification**: Alerts the user if the issue remains unresolved.
+### 6. **Import CSV Data From Gmail Attachment to Google Sheets**
+- [Code](Save_From_Email_Attachment_To_Google_Sheet/App_Script.gs) | [Documentation](Save_From_Email_Attachment_To_Google_Sheet/README.md)
+- **Description**: Imports CSV attachments from Gmail into Google Sheets, automating the process of updating data from email reports.
+- **Key Features**:
+  - **Email Fetching**: Automatically searches for specific emails.
+  - **CSV Parsing**: Imports CSV data into Google Sheets.
+  - **Scheduled Updates**: Runs automatically at a set time.
 
-8. **Auto Timestamp for Edits**
-   - [Code](Save_Date_&_Time_Based_On_Value_In_A_Cell/App_Script.gs) | [Documentation](Save_Date_&_Time_Based_On_Value_In_A_Cell/README.md)
-   - Description: This Google Apps Script automatically adds a timestamp in a designated column whenever a specific cell is edited in Google Sheets. It ensures that timestamps are added even when the `onEdit()` trigger doesn't work as expected, particularly in large datasets or edits made via forms or APIs.
-   #### Key Features:
-   - **Automatic Timestamping:** Adds timestamps when cells are edited in a specific column.
-   - **Fallback for `onEdit()` Trigger:** Ensures timestamps are added even if `onEdit()` fails.
-   - **Customizable:** Works on any sheet and can be adapted to different columns.
-   - **Tracking Edits:** Helps track when each entry was modified.
+### 7. **Handle Reference Error**
+- [Code](Handle_Ref_Error/App_Script.gs) | [Documentation](Handle_Ref_Error/README.md)
+- **Description**: Detects and resolves `#REF!` errors in Google Sheets, with automatic row additions and email notifications.
+- **Key Features**:
+  - **Automatic Error Detection**: Identifies `#REF!` errors.
+  - **Retry Mechanism**: Configurable error resolution attempts.
+  - **Email Alerts**: Notifies users if the issue persists.
 
-9. **Auto-Update Email Id & Timestamp**
-   - [Code](Save_EmailId_Timestamp_At_The_Time_Of_Edit_In_Sheet/App_Script.gs) | [Documentation](Save_EmailId_Timestamp_At_The_Time_Of_Edit_In_Sheet/README.md)
-   - Description: This Google Apps Script automatically records the date and email address of the user when specific columns are edited in a Google Sheet. It is designed for a sheet named **"New"** to maintain a log of user edits without manual intervention.
-   #### Key Features:
-   - **Automatic Date Logging:** Records the current date and time when specified columns are edited.
-   - **User Email Logging:** Logs the email address of the user who made the edit.
-   - **Seamless Operation:** Runs automatically without manual input.
+### 8. **Auto Timestamp for Edits**
+- [Code](Save_Date_&_Time_Based_On_Value_In_A_Cell/App_Script.gs) | [Documentation](Save_Date_&_Time_Based_On_Value_In_A_Cell/README.md)
+- **Description**: Automatically adds timestamps when specific cells are edited, ensuring accurate tracking of changes.
+- **Key Features**:
+  - **Automatic Timestamping**: Adds timestamps on cell edits.
+  - **Fallback for `onEdit()`**: Ensures timestamps even if `onEdit()` fails.
+  - **Customizable**: Works on any sheet or column.
 
-10. **Color Rows Based on Column Values**
-   - [Code](Color_Rows_Based_On_Column_Value/App_Script.gs) | [Documentation](Color_Rows_Based_On_Column_Value/README.md)
-   - Description: This Google Apps Script colors entire rows in a Google Sheet based on the values in a specified column, making it easier to visually categorize or highlight data.
-   #### Key Features:
-   - **Dynamic Row Coloring:** Apply custom colors based on cell values in a specific column.
-   - **Customizable Conditions:** Set different colors for different values (e.g., green for completed, red for urgent).
-   - **Easy Integration:** Works with any Google Sheet and can be adapted for various use cases.
+### 9. **Auto-Update Email Id & Timestamp**
+- [Code](Save_EmailId_Timestamp_At_The_Time_Of_Edit_In_Sheet/App_Script.gs) | [Documentation](Save_EmailId_Timestamp_At_The_Time_Of_Edit_In_Sheet/README.md)
+- **Description**: Records the date and email address of users when specific columns are edited in Google Sheets.
+- **Key Features**:
+  - **Automatic Date Logging**: Logs date and time of edits.
+  - **User Email Logging**: Tracks the email of the editor.
+  - **Seamless Operation**: Runs without manual input.
 
-11. **Hide/Show Rows Based on Column Value**
-   - [Code](Hide_Rows_Based_On_Column_Value/App_Script.gs) | [Documentation](Hide_Rows_Based_On_Column_Value/README.md)
-   - Description: This Google Apps Script automates hiding or showing rows in a Google Sheets document based on specific values in a designated column. It checks values in a specified column (e.g., Column W) and hides rows where the value meets a certain condition (e.g., value is `1`).
-   #### Key Features:
-   - **Conditional Row Visibility:** Automatically hides rows with specific values (e.g., `1`) in a designated column.
-   - **Customizable:** Can be used on any sheet by modifying the sheet name in the script.
-   - **Data Filtering:** Ideal for automatically hiding completed tasks or irrelevant data.
+### 10. **Color Rows Based on Column Values**
+- [Code](Color_Rows_Based_On_Column_Value/App_Script.gs) | [Documentation](Color_Rows_Based_On_Column_Value/README.md)
+- **Description**: Colors rows based on the values in a specific column to visually categorize data.
+- **Key Features**:
+  - **Dynamic Row Coloring**: Apply colors based on cell values.
+  - **Customizable Conditions**: Set colors for specific values.
+  - **Easy Integration**: Works with any Google Sheet.
 
-12. **Mark Rows Based on Cell Color**
-   - [Code](Value_Based_On_Cell_Color/App_Script.gs) | [Documentation](Value_Based_On_Cell_Color/README.md)
-   - Description: This Google Apps Script function marks rows in a Google Sheet based on the background color of cells in the second column. If a cell is blue (`#008080`), it marks the corresponding row with a `1` in the 23rd column. Otherwise, it marks it with a `0`.
-   #### Key Features:
-   - **Target Sheet:** Operates on `Sheet1` (modifiable).
-   - **Color Check:** Evaluates the background color of cells in the second column.
-   - **Conditional Marking:** Marks rows with `1` for blue cells and `0` for others.
+### 11. **Hide/Show Rows Based on Column Value**
+- [Code](Hide_Rows_Based_On_Column_Value/App_Script.gs) | [Documentation](Hide_Rows_Based_On_Column_Value/README.md)
+- **Description**: Automatically hides or shows rows based on the values in a designated column.
+- **Key Features**:
+  - **Conditional Row Visibility**: Hides rows based on specific values.
+  - **Customizable**: Can be adapted to different sheets and conditions.
 
-13. **Automated Cell Clearing Script**
-   - [Code](clear_cells/ClearCells.gs) | [Documentation](clear_cells/README.md)
-   - Description: This Google Apps Script automates the process of clearing specific cell ranges across multiple sheets in a Google Spreadsheet. It helps streamline daily data cleaning tasks by resetting designated cells.
-   #### Key Features:
-   - Clears ranges `U2:Y100` in the "Morning Follow-up" and "Evening Follow-up" sheets.
-   - Clears range `Q2:U150` in the "Retailer_Data" sheet.
-   - Ideal for daily data cleanup and reset tasks.
+### 12. **Mark Rows Based on Cell Color**
+- [Code](Value_Based_On_Cell_Color/App_Script.gs) | [Documentation](Value_Based_On_Cell_Color/README.md)
+- **Description**: Marks rows based on the background color of cells, helping to categorize or highlight data visually.
+- **Key Features**:
+  - **Target Sheet**: Operates on `Sheet1` (modifiable).
+  - **Color Check**: Evaluates cell colors to mark rows.
+  - **Conditional Marking**: Marks rows with `1` or `0` based on color.
 
+### 13. **Automated Cell Clearing Script**
+- [Code](clear_cells/ClearCells.gs) | [Documentation](clear_cells/README.md)
+- **Description**: Clears specific cell ranges across multiple sheets, streamlining daily data cleaning tasks.
+- **Key Features**:
+  - Clears specified ranges in multiple sheets.
+  - Ideal for daily data reset tasks.
 
 ## How to Use
-- Open the script in Google Apps Script editor.
-- Follow the individual project instructions provided in the respective folders.
-
+- Open the script in the Google Apps Script editor.
+- Follow the individual project instructions provided in each folder for setup and customization.
