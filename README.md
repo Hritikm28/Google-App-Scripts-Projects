@@ -14,8 +14,8 @@ Collection of Google Apps Script projects for automating tasks in Google Workspa
 2. **Remove Duplicates, Keep Last Occurrence, and Sort Script**
    - [Code](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/App_Script.gs) | [Documentation](Remove_Duplicate_Rows_And_Sort_Final_Result_Based_On_Column_Value/README.md)
    - Description: This Google Apps Script automates data cleaning and organization in Google Sheets by:  
-   - **Removing duplicate rows** while retaining the **last occurrence** of each unique key.  
-   - **Sorting the remaining rows** based on a specified column.  
+      - **Removing duplicate rows** while retaining the **last occurrence** of each unique key.  
+      - **Sorting the remaining rows** based on a specified column.  
 
    #### Key Features:  
    - **Remove Duplicates:** Ensures only the most recent instance of duplicate rows is kept.  
